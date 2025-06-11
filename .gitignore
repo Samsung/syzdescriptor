@@ -1,0 +1,9 @@
+*.img
+*.json
+build/
+syzgen_out/
+__pycache__/
+*.swp
+*.egg-info/
+*.const
+*.txt

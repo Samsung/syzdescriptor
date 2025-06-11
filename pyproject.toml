@@ -1,0 +1,26 @@
+[project]
+name = "syzdescriptor"
+version = "1.0"
+authors = [
+        { name = "Michał Lach", email = "michal.lach@samsung.com" },
+]
+description = "Generate syzkaller descriptions with FTDB"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+        "libcas @ git+https://github.com/Samsung/CAS.git"
+]
+
+[project.scripts]
+syzdescriptor = "syzdescriptor.cmd:main"
+
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
