@@ -12,7 +12,7 @@ classifiers = [
         "Operating System :: POSIX :: Linux",
 ]
 dependencies = [
-        "libcas @ git+https://github.com/Samsung/CAS.git"
+        "cas @ git+https://github.com/Samsung/CAS.git"
 ]
 
 [project.scripts]

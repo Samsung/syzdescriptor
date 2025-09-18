@@ -8,8 +8,8 @@ for a given kernel build.
 
 # Building
 Requirements:
-  * Python 3.12
-  * [`libcas`](https://github.com/Samsung/CAS)
+  * Python 3.10
+  * [CAS](https://github.com/Samsung/CAS)
   * [SEAL](https://github.com/Samsung/seal) (if you want fuzzing ready configs, SEAL has to generate mapping between kernel functions and filesystem nodes)
 
 All Python dependencies should be satisifed by installing `syzdescriptor` with pip.
